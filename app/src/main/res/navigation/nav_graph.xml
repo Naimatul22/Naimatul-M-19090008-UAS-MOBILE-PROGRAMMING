@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_profil">
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.naimatul.myuasnana.ProfilFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/nav_breadlist"
+        android:name="com.naimatul.myuasnana.BreadListFragment"
+        android:label="BreadList"
+        tools:layout="@layout/fragment_bread_list" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.naimatul.myuasnana.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.naimatul.myuasnana.MessageFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
+</navigation>
